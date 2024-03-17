@@ -18,6 +18,7 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   background-color: hsla(225, 100%, 94%);
 }
 
 .card{
