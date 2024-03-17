@@ -1,0 +1,26 @@
+@media(max-width: 500px){
+   body{
+      
+   }
+
+   .card{
+      width: 350px;
+   }
+
+   .card h1{
+      font-size: 2rem;
+   }
+
+   .text-main{
+      font-size: 1.4rem;
+   }
+
+   .icon-music{
+      width: 3.5rem;
+   }
+
+   .plan-valor p{
+      font-size: 1.4rem;
+   }
+
+}

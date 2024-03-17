@@ -22,10 +22,10 @@ body{
 }
 
 .card{
-   width: 450px;
+   width: 480px;
    background-color: #f5f7ff;
    border-radius: 1.5rem;
-   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.438);
+   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.199);
 }
 
 .img-card{
@@ -43,7 +43,7 @@ body{
    text-align: center;
    font-size: 2.5rem;
    font-weight: 900;
-   padding: 1.5rem 0; 
+   padding: 2.8rem 0; 
    color: hsl(224, 20%, 27%)
 }
 
