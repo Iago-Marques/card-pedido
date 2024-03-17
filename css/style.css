@@ -1,0 +1,125 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Red Hat Display", sans-serif;
+}
+
+html{
+   font-size: 62.5%;
+}
+
+body{
+   height: 100vh;
+   background-image: url(../images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: top top;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card{
+   width: 400px;
+   background-color: #f5f7ff;
+   border-radius: 1.5rem;
+}
+
+.img-card{
+   width: 100%;
+   border-radius: 1.5rem 1.5rem 0 0;
+
+}
+
+.width-global-main{
+   margin: auto;
+   width: 70%;
+}
+
+.card h1{
+   text-align: center;
+   font-size: 2.5rem;
+   font-weight: 900;
+   padding: 1.5rem 0; 
+}
+
+.text-main{
+   font-size: 1.5rem;
+   text-align: center;
+   font-weight: 600;
+   color: #7280a7;
+}
+
+.card-plan{
+   background-color: #e0e8ff67;
+   padding: 1.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 1rem;
+   margin: 2.5rem 0;
+
+}
+
+.img-valor{
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+
+.icon-music{
+   width: 4rem;
+}
+
+.plan-valor p{
+   font-size: 1.6rem;
+   font-weight: bolder;
+}
+
+.plan-valor .valor{
+   color: #7280a7;
+   font-weight: 600;
+}
+
+.change{
+   font-size: 1.4rem;
+   font-weight: 700;
+   color: #3829e0;
+}
+
+.change:hover{
+   color: #3829e0a4;
+}
+
+.payment{
+   background-color: #3829e0;
+   width: 100%;
+   padding: 1.4rem;
+   color: #e0e8ff;
+   font-weight: 900;
+   border: none;
+   border-radius: 1rem;
+   margin: 2.5rem 0;
+}
+
+.payment:hover{
+   background-color: #3829e0a4;
+   cursor: pointer;
+}
+
+.cancel{
+   width: 100%;
+   padding: 1.4rem;
+   font-weight: 900;
+   border: none;
+   background-color: #f5f7ff;
+   color: #7280a7;
+   margin-bottom: 2.5rem;
+}
+
+.cancel:hover{
+   color: hsl(223, 47%, 23%);
+   cursor: pointer;
+}
+
